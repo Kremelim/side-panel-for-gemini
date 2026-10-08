@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Side Panel for Gemini</title>
+  <meta name="description" content="Gemini, tarayıcının yan panelinde: sayfayı özetle, kitaptaki soruları çöz, çalışma planını takip et. Veriler senin tarayıcında kalır.">
+  <link rel="icon" href="logo.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="wrap">
+    <header class="top">
+      <a class="brand" href="./"><img src="logo.svg" alt="" width="28" height="28"> Side Panel for Gemini</a>
+      <nav class="langs" aria-label="Dil / Language"><a href="privacy.html">Gizlilik</a><a href="#en" lang="en">English</a></nav>
+    </header>
+
+    <div class="hero">
+      <div>
+        <h1>Gemini, okuduğun sayfanın hemen yanında</h1>
+        <p>Chrome ve Edge için resmî olmayan bir yan panel. Açık sayfayı özetler, PDF kitaptaki soruları adım adım çözdürür, çalışma planını ve yanlışlarını takip eder.</p>
+        <p>Hesap açmak yok, sunucu yok: verilerin kendi tarayıcında durur.</p>
+      </div>
+      <div class="browser" role="img" aria-label="Bir web sayfasının yanında açık duran yan panel">
+        <div class="bar"><i></i><i></i><i></i></div>
+        <div class="body">
+          <div class="page"><b></b><b></b><b></b><b></b><b></b><b></b><b></b></div>
+          <div class="panel">
+            <div class="row"><strong>Soruları çöz</strong><span>s. 79–86 · 12 soru · cevap anahtarı s. 306</span></div>
+            <div class="row"><strong>Bugün</strong><span>16.00 Fen Bilimleri · 2 / 3 tamamlandı</span></div>
+            <div class="row"><strong>Bilgi kartları</strong><span>4 kart tekrar bekliyor</span></div>
+            <span class="go">Puanla ve çöz</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <section aria-labelledby="ne">
+      <h2 id="ne">Ne yapar</h2>
+      <div class="cols">
+        <div><h3>Sayfayla çalışır</h3><p>Özetler, çevirir, önemli noktaları çıkarır; ekran görüntüsünü göndermeden önce istediğin yeri karartabilirsin.</p></div>
+        <div><h3>Ders çalıştırır</h3><p>Kitaptaki soruları çözdürür, cevaplarını optik formdan puanlar, yanlışları deftere ve bilgi kartlarına ekler.</p></div>
+        <div><h3>Seni takip eder, izlemez</h3><p>Fiyat ve sayfa değişikliklerini, planını ve ilerlemeni tutar; hepsi senin tarayıcında.</p></div>
+      </div>
+    </section>
+
+    <section aria-labelledby="gizlilik">
+      <h2 id="gizlilik">Gizlilik</h2>
+      <p class="promise">Eklentinin bir sunucusu yok; reklam, analiz ya da izleme yok. Gemini'ye yalnızca senin gönderdiğin gider. Google Drive ile eşitlemeyi açarsan veriler kendi Drive'ının gizli bir uygulama klasörüne gider; orada başka hiçbir dosyana dokunulmaz. Ayrıntılar <a href="privacy.html">gizlilik politikasında</a>.</p>
+    </section>
+
+    <section id="en" lang="en" aria-labelledby="en-title">
+      <h2 id="en-title">In English</h2>
+      <p class="promise">An unofficial side panel for Gemini in Chrome and Edge: summarise the page, work through the questions in a PDF book step by step, keep a study plan and a notebook of wrong answers. No account and no server: your data stays in your browser. Syncing, if you turn it on, uses a hidden app folder in your own Google Drive. Read the <a href="privacy.html#en">privacy policy</a>.</p>
+    </section>
+  </div>
+  <footer>
+    <div class="wrap">Side Panel for Gemini, Google'dan bağımsız bir projedir; Gemini ve Google Drive, Google LLC'nin markalarıdır. · <a id="contact" href="privacy.html#iletisim">İletişim</a></div>
+  </footer>
+  <script src="contact.js"></script>
+</body>
+</html>
